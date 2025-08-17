@@ -17,16 +17,17 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SampleFramework"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of SampleFramework."
+  spec.summary      = "SampleFramework"
   spec.description  = <<-DESC
+                   SampleFramework - setup description.
                    DESC
 
-  spec.homepage     = "https://github.com/Swayam065798/iOS_learnings"
-  spec.license      = "MIT (example)"
+  spec.homepage     = "https://github.com/Swayam065798/iOS_learnings.git"
+  spec.license      = "MIT"
   spec.author             = { "Swayam" => "swayamdiptab@gmail.com" }
-  spec.source       = { :git => "https://github.com/Swayam065798/iOS_learnings", :tag => "#{spec.version}" }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source       = { :git => "https://github.com/Swayam065798/iOS_learnings.git", :tag => "#{spec.version}" }
+  spec.source_files  = 'SampleFramework/**/*.{swift,h,m}'
   spec.exclude_files = "Classes/Exclude"
-  s.ios.deployment_target = '13.0'
+  spec.ios.deployment_target = '13.0'
 
 end
